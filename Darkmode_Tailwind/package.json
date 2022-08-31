@@ -1,0 +1,16 @@
+{
+  "name": "tailwind_starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
+    "minify" : "npx tailwindcss -o ./public/css/style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.7"
+  }
+}
